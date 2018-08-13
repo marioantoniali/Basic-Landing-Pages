@@ -1,0 +1,173 @@
+/* Size the page and style */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-body {
+  flex: 1 0 auto;
+}
+
+/* Put footer at page bottom */
+.socal-networks {
+  flex-shrink: 0;
+}
+
+/* Navbar */
+/* Style the navbar */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012C0B;
+}
+
+.nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-items li {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-family: Open-sans;
+}
+
+.nav-items li a:hover {
+  color: orange;
+}
+
+.navbar-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-right li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#name {
+  color: white;
+}
+
+/* Add style to avatar picture */
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Body */
+/* Style page title */
+span {
+  font-weight: bold;
+  color: orange;
+  font-family: Roboto, Montserrat;
+}
+
+/* Center page title */
+.block-title {
+  text-align: center;
+}
+
+/* Align picture and text */
+/* Center the body on secondary axis */
+#container-body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #EAA81B;
+}
+
+/* Align right body text and image on the left*/
+.image {
+  margin: 50px 0 0 200px;
+}
+
+.body-image {
+  width: 500px;
+  height: auto;
+}
+
+.body-elements {
+  margin: 250px 250px 0 100px;
+  text-align: justify;
+}
+
+/* Footer */
+/* Style all social media incons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set spécific color for each icon */
+
+/* Facebook */
+.fa-facebook {
+    background: #627AAC;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #76BCF1;
+    color: white;
+}
+
+/* Google */
+.fa-google {
+    background: #E36E60;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #3295C3;
+    color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: #C83232;
+    color: white;
+}
+
+/* Style the footer */
+.social-items {
+  list-style-type: none;
+}
+
+.social-items li {
+  float: left;
+  display: block;
+  padding: 8px;
+}
